@@ -25,7 +25,8 @@ public class MainActivity extends AppCompatActivity {
             Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
             mapIntent.setPackage("com.google.android.apps.maps");
             startActivity(mapIntent);
-
         });
+
+        //Button scanner = (Button) findViewById(R.id);
     }
 }
